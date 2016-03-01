@@ -1,0 +1,28 @@
+{
+  "name": "responsive-icon-grid",
+  "authors": [
+    "BestMatEver <mattkun@gmail.com>"
+  ],
+  "description": "a grid that responds to screen size and mouse over. it has icons. theyre pretty",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "blueprint",
+    "grid",
+    "responsive",
+    "icon"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.5.0",
+    "jquery": "^2.2.1"
+  }
+}
