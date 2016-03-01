@@ -1,0 +1,49 @@
+$boxWidth: (100%/3.2);
+$boxHeight: 700px/2;
+$color: rgb(125, 219, 188);
+$color2: rgb(255, 255, 255);
+$boxContainerLRMargin: 3.6%;
+$boxFontSize: ($boxWidth*7);
+$transFontSize: ($boxWidth*2);
+$boxPaddingTop: $boxHeight/10;
+
+.box{
+  position: relative;
+  font-size: $boxFontSize;
+  font-family: 'Helvetica', sans-serif;
+  text-align:center;
+  color: $color;
+  display: inline-block;
+  width: $boxWidth;
+  height: $boxHeight;
+  padding-top: $boxPaddingTop;
+}
+.transwords{
+  color: $color2;
+  font-size: $transFontSize;
+  font-family: serif
+}
+.bar{
+  background: $color;
+  width: $boxWidth*2;
+  height: 8px;
+  margin-left: $boxWidth*.5;
+}
+.box:hover{
+  background: $color;
+  color: $color2;
+  .bar{
+    background: $color2;
+    width: $boxWidth*2;
+    height: 8px;
+    margin-left: $boxWidth*.5;
+  }
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+#boxContainer{
+  width: 100%;
+  padding: 0 $boxContainerLRMargin 0 $boxContainerLRMargin;
+}

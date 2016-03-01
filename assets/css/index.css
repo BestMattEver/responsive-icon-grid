@@ -1,0 +1,40 @@
+.box {
+  position: relative;
+  font-size: 218.75%;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  color: #7ddbbc;
+  display: inline-block;
+  width: 31.25%;
+  height: 350px;
+  padding-top: 35px; }
+
+.transwords {
+  color: white;
+  font-size: 62.5%;
+  font-family: serif; }
+
+.bar {
+  background: #7ddbbc;
+  width: 62.5%;
+  height: 8px;
+  margin-left: 15.625%; }
+
+.box:hover {
+  background: #7ddbbc;
+  color: white; }
+  .box:hover .bar {
+    background: white;
+    width: 62.5%;
+    height: 8px;
+    margin-left: 15.625%; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+#boxContainer {
+  width: 100%;
+  padding: 0 3.6% 0 3.6%; }
+
+/*# sourceMappingURL=index.css.map */
