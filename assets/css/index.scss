@@ -18,6 +18,10 @@ $boxPaddingTop: $boxHeight/10;
   height: $boxHeight;
   padding-top: $boxPaddingTop;
 }
+.bigwords{
+  color: $color;
+  position:absolute;
+}
 .transwords{
   color: $color2;
   font-size: $transFontSize;
@@ -29,6 +33,7 @@ $boxPaddingTop: $boxHeight/10;
   height: 8px;
   margin-left: $boxWidth*.5;
 }
+
 .box:hover{
   background: $color;
   color: $color2;
@@ -37,8 +42,57 @@ $boxPaddingTop: $boxHeight/10;
     width: $boxWidth*2;
     height: 8px;
     margin-left: $boxWidth*.5;
-  }
-}
+    transform: translateY(50px);
+    transition: .25s;
+    }
+  i{
+    transform: translateY(- 10px);
+    transition: .25s;
+    }
+  // .bigWords{
+  //   position: absolute;
+  //   left: $boxWidth*.8;
+  //   transform: translateY(- 50px);
+  //   transition: .25s;
+  //   }
+  #COMICS{
+    position: absolute;
+    left: $boxWidth;
+    transform: translateY(- 50px);
+    transition: .25s;
+    }
+  #GAMES{
+    position: absolute;
+    left: $boxWidth;
+    transform: translateY(- 50px);
+    transition: .25s;
+    }
+  #TRAVEL{
+    position: absolute;
+    left: $boxWidth;
+    transform: translateY(- 50px);
+    transition: .25s;
+    }
+  #MOVIES{
+    position: absolute;
+    left: $boxWidth;
+    transform: translateY(- 50px);
+    transition: .25s;
+    }
+  #TECHNOLOGY{
+    position: absolute;
+    left: $boxWidth*.5;
+    transform: translateY(- 50px);
+    transition: .25s;
+    }
+  #NIGHTLIFE{
+    position: absolute;
+    left: $boxWidth*.8;
+    transform: translateY(- 50px);
+    transition: .25s;
+    }
+}/*ends box:hover*/
+
 a{
   text-decoration: none;
   color: #000;
